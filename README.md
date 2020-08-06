@@ -25,7 +25,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'jacoco-android'
 
 jacoco {
-  toolVersion = "0.8.4"
+  toolVersion = "0.8.5"
 }
 
 tasks.withType(Test) {
